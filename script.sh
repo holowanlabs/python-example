@@ -15,7 +15,7 @@ count=$(echo -n $passwrd | wc -c)
         then
                 echo "$count characters is too short for a password. You need at least 8."
         else
-                echo "Access granted. You're water bottle is the biggest."        
+                echo "Access granted. Your water bottle is the biggest."        
         fi
 elif [ $name = "Kathleen" ]
 then
